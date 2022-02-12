@@ -1,0 +1,18 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /*?*
+Disallow: /wp-*
+
+User-agent: NinjaBot
+Allow: /
+
+User-agent: Mediapartners-Google*
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+Sitemap: https://www.pariiw.com/sitemap.xml
